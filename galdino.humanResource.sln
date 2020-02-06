@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{BF108919-24DC-44DC-8811-45A862C6B6D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02- Domain", "02- Domain", "{53DD367C-9D06-4375-9473-7646F716F13C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{5487B1E6-322B-4E34-9521-E6E40AD4D1E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Utils", "04 - Utils", "{3B12F7C1-F851-452A-A47D-66CC1CC1FA5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.humanResource.domain", "galdino.humanResource.domain\galdino.humanResource.domain.csproj", "{C7AC0045-9AA4-476B-B975-46824E40FCBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.humanResource.infra", "galdino.humanResource.infra\galdino.humanResource.infra.csproj", "{0FDC4343-0EF8-4475-A05F-77BC97D8F8C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.humanResource.utils", "galdino.humanResource.utils\galdino.humanResource.utils.csproj", "{FD813DDB-00DF-438D-9994-B1CA434CB85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Web", "1.1 - Web", "{967A112B-DDB6-4ECA-AC30-75D58DF1BED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "galdino.humanResource.Web_cli", "galdino.humanResource.Web_cli\galdino.humanResource.Web_cli.csproj", "{69EFC84A-0533-4517-8BD2-2C6BFD12F6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7AC0045-9AA4-476B-B975-46824E40FCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AC0045-9AA4-476B-B975-46824E40FCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AC0045-9AA4-476B-B975-46824E40FCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AC0045-9AA4-476B-B975-46824E40FCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDC4343-0EF8-4475-A05F-77BC97D8F8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDC4343-0EF8-4475-A05F-77BC97D8F8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDC4343-0EF8-4475-A05F-77BC97D8F8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDC4343-0EF8-4475-A05F-77BC97D8F8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD813DDB-00DF-438D-9994-B1CA434CB85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD813DDB-00DF-438D-9994-B1CA434CB85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD813DDB-00DF-438D-9994-B1CA434CB85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD813DDB-00DF-438D-9994-B1CA434CB85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69EFC84A-0533-4517-8BD2-2C6BFD12F6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EFC84A-0533-4517-8BD2-2C6BFD12F6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EFC84A-0533-4517-8BD2-2C6BFD12F6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EFC84A-0533-4517-8BD2-2C6BFD12F6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7AC0045-9AA4-476B-B975-46824E40FCBB} = {53DD367C-9D06-4375-9473-7646F716F13C}
+		{0FDC4343-0EF8-4475-A05F-77BC97D8F8C4} = {5487B1E6-322B-4E34-9521-E6E40AD4D1E6}
+		{FD813DDB-00DF-438D-9994-B1CA434CB85F} = {3B12F7C1-F851-452A-A47D-66CC1CC1FA5D}
+		{967A112B-DDB6-4ECA-AC30-75D58DF1BED0} = {BF108919-24DC-44DC-8811-45A862C6B6D8}
+		{69EFC84A-0533-4517-8BD2-2C6BFD12F6FD} = {967A112B-DDB6-4ECA-AC30-75D58DF1BED0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {035D243B-936A-4604-B34A-80021B9763B5}
+	EndGlobalSection
+EndGlobal
